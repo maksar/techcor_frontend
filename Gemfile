@@ -16,4 +16,6 @@ group :test do
 end
 
 gem 'sinatra'
+gem 'bebop'
 gem 'haml'
+gem 'techcor'

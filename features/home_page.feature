@@ -3,6 +3,6 @@ Feature: Cucumber web testing
   As A developer
   I want to see my home page
 
-  Scenario: View hello page
-    Given I am on the home page
-    Then I should see "It works"
+  Scenario: View home page
+    When I go to the home page
+    Then I should be on projects page

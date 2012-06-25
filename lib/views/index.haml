@@ -1,2 +1,3 @@
-%p
-  It works
+%pre
+  - @projects.each do |project|
+    != link_to project.name, projects_show_path(project.name)
