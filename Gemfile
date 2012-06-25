@@ -3,6 +3,7 @@ source :rubygems
 group :development do
   gem 'rake'
   gem 'shotgun'
+  gem 'heroku'
 end
 
 group :test do
